@@ -47,7 +47,7 @@
         <hibernate-types.version>2.20.0</hibernate-types.version>
         <spring-boot-starter-data-redis.version>3.0.2</spring-boot-starter-data-redis.version>
         <spring-data-redis.version>3.0.0</spring-data-redis.version>
-        <jedis.version>4.3.1</jedis.version>
+        <jedis.version>6.0.0</jedis.version>
         <spring-cloud-starter-sleuth.version>3.1.6</spring-cloud-starter-sleuth.version>
         <springdoc-openapi-webmvc-core.version>1.5.13</springdoc-openapi-webmvc-core.version>
         <!--  JaCoCo Properties  -->

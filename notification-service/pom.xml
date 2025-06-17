@@ -30,7 +30,7 @@
         <springdoc-webmvc-core.version>1.5.13</springdoc-webmvc-core.version>
         <spring-messaging.version>5.3.24</spring-messaging.version>
         <spring-websocket>5.3.24</spring-websocket>
-        <spring-boot-starter-thymeleaf.version>2.3.3.RELEASE</spring-boot-starter-thymeleaf.version>
+        <spring-boot-starter-thymeleaf.version>3.0.10</spring-boot-starter-thymeleaf.version>
         <twilio.version>7.1.0</twilio.version>
         <!--  JaCoCo Properties  -->
         <jacoco.version>0.8.8</jacoco.version>

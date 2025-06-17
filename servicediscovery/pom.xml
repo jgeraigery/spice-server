@@ -16,7 +16,7 @@
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2021.0.0</spring-cloud.version>
-        <eureka-server.version>4.0.0</eureka-server.version>
+        <eureka-server.version>4.1.3</eureka-server.version>
         <!--  JaCoCo Properties  -->
         <jacoco.version>0.8.8</jacoco.version>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>

@@ -15,7 +15,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.5</version>
+        <version>2.7.18</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -24,13 +24,13 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
         <springfox-version>3.0.0</springfox-version>
-        <commons-codec-version>1.2</commons-codec-version>
-        <modelmapper-version>3.1.0</modelmapper-version>
-        <apache-collections4-version>4.4</apache-collections4-version>
+        <commons-codec-version>1.18.0</commons-codec-version>
+        <modelmapper-version>3.2.4</modelmapper-version>
+        <apache-collections4-version>4.5.0</apache-collections4-version>
         <jjwt-version>0.9.1</jjwt-version>
         <lombok-version>1.18.24</lombok-version>
         <jackson-core-version>2.16.0</jackson-core-version>
-        <spring-cloud.version>2021.0.3</spring-cloud.version>
+        <spring-cloud.version>2021.0.9</spring-cloud.version>
         <spring-cloud-starter-openfeign.version>4.0.1</spring-cloud-starter-openfeign.version>
         <spring-cloud-openfeign-core>4.0.1</spring-cloud-openfeign-core>
         <json.version>20231013</json.version>
@@ -38,20 +38,20 @@
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <jaxb-core.version>2.3.0.1</jaxb-core.version>
         <json-simple.version>1.1.1</json-simple.version>
-        <spring-starter-data-jpa.version>2.7.8</spring-starter-data-jpa.version>
-        <spring-starter-web.version>3.0.2</spring-starter-web.version>
+        <spring-starter-data-jpa.version>2.7.18</spring-starter-data-jpa.version>
+        <spring-starter-web.version>3.5.3</spring-starter-web.version>
         <netflix-eureka-client.version>4.0.0</netflix-eureka-client.version>
-        <spring-boot-starter-validation.version>3.0.2</spring-boot-starter-validation.version>
-        <commons-lang3.version>3.12.0</commons-lang3.version>
-        <spring-boot-starter-security.version>3.0.2</spring-boot-starter-security.version>
-        <hibernate-types.version>2.20.0</hibernate-types.version>
+        <spring-boot-starter-validation.version>3.5.3</spring-boot-starter-validation.version>
+        <commons-lang3.version>3.17.0</commons-lang3.version>
+        <spring-boot-starter-security.version>3.5.3</spring-boot-starter-security.version>
+        <hibernate-types.version>2.21.1</hibernate-types.version>
         <spring-boot-starter-data-redis.version>3.0.2</spring-boot-starter-data-redis.version>
         <spring-data-redis.version>3.0.0</spring-data-redis.version>
-        <jedis.version>4.3.1</jedis.version>
-        <spring-cloud-starter-sleuth.version>3.1.6</spring-cloud-starter-sleuth.version>
-        <springdoc-openapi-webmvc-core.version>1.5.13</springdoc-openapi-webmvc-core.version>
+        <jedis.version>4.4.8</jedis.version>
+        <spring-cloud-starter-sleuth.version>3.1.11</spring-cloud-starter-sleuth.version>
+        <springdoc-openapi-webmvc-core.version>1.8.0</springdoc-openapi-webmvc-core.version>
         <!--  JaCoCo Properties  -->
-        <jacoco.version>0.8.8</jacoco.version>
+        <jacoco.version>0.8.13</jacoco.version>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
         <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
@@ -273,7 +273,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.1</version>
+                <version>3.4.2</version>
                 <executions>
                     <execution>
                         <goals>
@@ -285,7 +285,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.2.0</version>
+                <version>3.6.0</version>
                 <executions>
                     <execution>
                         <id>validate</id>

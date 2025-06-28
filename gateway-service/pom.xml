@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.1</version>
+        <version>2.7.18</version>
         <relativePath/>
     </parent>
     <artifactId>gateway-service</artifactId>
@@ -14,14 +14,14 @@
 
     <properties>
         <java.version>17</java.version>
-        <spring-cloud.version>2021.0.0</spring-cloud.version>
+        <spring-cloud.version>2021.0.9</spring-cloud.version>
         <spring-cloud-starter-gateway.version>4.0.1</spring-cloud-starter-gateway.version>
         <netflix-eureka-client.version>4.0.0</netflix-eureka-client.version>
-        <spring-cloud-starter-sleuth.version>3.1.6</spring-cloud-starter-sleuth.version>
+        <spring-cloud-starter-sleuth.version>3.1.11</spring-cloud-starter-sleuth.version>
         <springdoc-openapi-webmvc-core.version>1.5.13</springdoc-openapi-webmvc-core.version>
-        <springdoc-openapi-webflux-ui.version>1.5.13</springdoc-openapi-webflux-ui.version>
+        <springdoc-openapi-webflux-ui.version>1.8.0</springdoc-openapi-webflux-ui.version>
         <!--  JaCoCo Properties  -->
-        <jacoco.version>0.8.8</jacoco.version>
+        <jacoco.version>0.8.13</jacoco.version>
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
         <sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>

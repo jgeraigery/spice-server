@@ -38,7 +38,7 @@
         <jaxb-api.version>2.3.1</jaxb-api.version>
         <jaxb-core.version>2.3.0.1</jaxb-core.version>
         <json-simple.version>1.1.1</json-simple.version>
-        <spring-starter-data-jpa.version>2.7.8</spring-starter-data-jpa.version>
+        <spring-starter-data-jpa.version>2.7.17</spring-starter-data-jpa.version>
         <spring-starter-web.version>3.0.2</spring-starter-web.version>
         <netflix-eureka-client.version>4.0.0</netflix-eureka-client.version>
         <spring-boot-starter-validation.version>3.0.2</spring-boot-starter-validation.version>

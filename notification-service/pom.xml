@@ -29,7 +29,7 @@
         <spring-cloud.version>2021.0.3</spring-cloud.version>
         <springdoc-webmvc-core.version>1.5.13</springdoc-webmvc-core.version>
         <spring-messaging.version>5.3.24</spring-messaging.version>
-        <spring-websocket>5.3.24</spring-websocket>
+        <spring-websocket>6.2.12</spring-websocket>
         <spring-boot-starter-thymeleaf.version>2.3.3.RELEASE</spring-boot-starter-thymeleaf.version>
         <twilio.version>7.1.0</twilio.version>
         <!--  JaCoCo Properties  -->

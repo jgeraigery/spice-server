@@ -42,7 +42,7 @@
         <spring-starter-web.version>3.0.2</spring-starter-web.version>
         <netflix-eureka-client.version>4.0.0</netflix-eureka-client.version>
         <spring-boot-starter-validation.version>3.0.2</spring-boot-starter-validation.version>
-        <commons-lang3.version>3.12.0</commons-lang3.version>
+        <commons-lang3.version>3.18.0</commons-lang3.version>
         <spring-boot-starter-security.version>3.0.2</spring-boot-starter-security.version>
         <hibernate-types.version>2.20.0</hibernate-types.version>
         <spring-boot-starter-data-redis.version>3.0.2</spring-boot-starter-data-redis.version>
